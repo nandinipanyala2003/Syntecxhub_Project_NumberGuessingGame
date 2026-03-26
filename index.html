@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 25px rgba(0,0,0,0.5);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .tag {
+            color: #00ffd5;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #00ffd5;
+            color: black;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: white;
+            transform: scale(1.05);
+        }
+
+        .section {
+            margin-top: 40px;
+        }
+
+        .screenshots {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .screenshots img {
+            width: 100%;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .screenshots img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>🎯 Number Guessing Game</h1>
+        <p class="tag">Advanced Python CLI Game</p>
+
+        <p>
+            This is an advanced number guessing game built using Python.
+            It includes multiple difficulty levels, hints system, timer, 
+            and leaderboard tracking.
+        </p>
+
+        <a href="https://github.com/YOUR-USERNAME/YOUR-REPO" class="btn" target="_blank">
+            🔗 View Source Code
+        </a>
+
+        <div class="section">
+            <h2>✨ Features</h2>
+            <p>✔️ Easy, Medium, Hard modes</p>
+            <p>✔️ Hot / Cold hints system</p>
+            <p>✔️ Timer tracking</p>
+            <p>✔️ Leaderboard system</p>
+            <p>✔️ Replay option</p>
+        </div>
+
+        <div class="section">
+            <h2>📸 Screenshots</h2>
+            <div class="screenshots">
+                <img src="screenshot1.png" alt="Game Screenshot 1">
+                <img src="screenshot2.png" alt="Game Screenshot 2">
+                <img src="screenshot3.png" alt="Game Screenshot 3">
+                <img src="screenshot4.png" alt="Game Screenshot 4">
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🚀 How to Run</h2>
+            <p>1. Download the repository</p>
+            <p>2. Open terminal</p>
+            <p>3. Run: <b>python game.py</b></p>
+        </div>
+
+        <footer>
+            Made with ❤️ by You | Syntecxhub Project
+        </footer>
+    </div>
+
+</body>
+</html>
